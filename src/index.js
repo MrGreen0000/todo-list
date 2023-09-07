@@ -4,8 +4,6 @@ const ul = document.querySelector("ul");
 const form = document.querySelector("form");
 const input = document.querySelector("form > input");
 
-console.log(form, input);
-
 const todos = [
   {
     text: "je suis une todo",
@@ -14,6 +12,10 @@ const todos = [
   {
     text: "faire du JavaScript",
     done: true,
+  },
+  {
+    text: "faire du Dart",
+    done: false,
   },
 ];
 
